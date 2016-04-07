@@ -1,4 +1,4 @@
-var colors = require('colors');
+import colors from 'colors';
 
 function hokkaido(str) {
   if ( str.match(/(北海道|ほっかいどう|hokkaido)/i) ) {
@@ -9,3 +9,4 @@ function hokkaido(str) {
 }
 
 module.exports = hokkaido;
+export default hokkaido;
