@@ -4,7 +4,7 @@
   "description": "北海道はでっかいどー！！！",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel -o lib/index.js src/index.js",
+    "build": "babel src --out-dir lib",
     "test": "mocha test.js",
     "prepublish": "npm run build"
   },
