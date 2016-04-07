@@ -1,0 +1,11 @@
+{
+  "name": "hokkaido-dekkaido",
+  "version": "0.1.0",
+  "description": "北海道はでっかいどー！！！",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hoto17296",
+  "license": "MIT"
+}
