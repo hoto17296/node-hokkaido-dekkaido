@@ -4,8 +4,11 @@
   "description": "北海道はでっかいどー！！！",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "author": "hoto17296",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
